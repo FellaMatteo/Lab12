@@ -57,10 +57,11 @@ L’applicazione deve permettere di:
   - Gli archi rappresentano un sentiero escursionistico tra due rifugi. 
   - Il peso di ciascun arco viene determinato combinando la distanza del sentiero (campo `distanza`) con un fattore 
   che tiene conto della difficoltà del percorso (campo `difficoltà`: facile, media, difficile):
-    $$
-    \text{peso} = \text{distanza} \times \text{fattore_difficolta}
-    $$
-  Il valore del `fattore_difficolta` è definito come segue:
+  $
+   \text{peso} = \text{distanza} \times \text{fattore_difficolta}
+  $
+  
+- Il valore del `fattore_difficolta` è definito come segue:
 
     | difficoltà | fattore_difficolta | 
     |------------|--------------------|
